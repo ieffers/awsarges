@@ -1,5 +1,6 @@
 <?php
-    require_once ('user.php');
+    $root = $_SERVER['DOCUMENT_ROOT'];
+    require_once($root.'user.php');
     $userToRecord = new user();
     $userData = array(
         'username' => $_POST['username'],

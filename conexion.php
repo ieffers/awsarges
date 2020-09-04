@@ -30,5 +30,6 @@
                 $this -> pdo = null;
             }
     }
-  
+    $db2 = new DB();
+    var_dump($db2);
     ?>

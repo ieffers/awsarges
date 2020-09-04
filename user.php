@@ -1,5 +1,6 @@
 <?php
-    require_once('bbdd.php');
+    $root = $_SERVER['DOCUMENT_ROOT'];
+    require_once($root.'bbdd.php');
 
     class user extends CRUD {
         public $table = 'users';
