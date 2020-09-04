@@ -1,6 +1,6 @@
 <?php
-    require_once ('UserRecorder.php');
-    $userToRecord = new UserRecorder();
+    require_once ('user.php');
+    $userToRecord = new user();
     $userData = array(
         'username' => $_POST['username'],
         'firstname'=> $_POST['firstname'],
