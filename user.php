@@ -1,5 +1,5 @@
 <?php
-    $root = $_SERVER['DOCUMENT_ROOT'];
+    define('__ROOT__', dirname(dirname(__FILE__)));
     require_once($root.'bbdd.php');
 
     class user extends CRUD {
