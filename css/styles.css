@@ -1,3 +1,28 @@
 body {
     background: #C0D6DF;
 }
+.formulario {
+    width: 300px;
+    background: blanchedalmond;
+    border: 1px solid black;
+    margin: auto;
+    padding: 20px;
+    border-radius: 3px;
+}
+.formulario h4 {
+    text-align: center;
+
+}
+.datosformulario {
+    padding: 3px 10px;
+    margin-bottom: 15px;
+    border-radius: 2px;
+    border: 0.5px solid black;
+}
+.submit {
+    width: 100%;
+    border: none;
+    padding: 12px;
+    margin: 16px 0;
+    font-size: 16px;
+}
