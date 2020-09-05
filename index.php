@@ -1,3 +1,6 @@
+<?php require_once('user.php');
+$userRecord = new $user();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
