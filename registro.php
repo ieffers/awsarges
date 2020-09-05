@@ -1,6 +1,5 @@
 <?php
-    define('__ROOT__', dirname(dirname(__FILE__)));
-    require_once(__ROOT__.'user.php');
+    require_once('/var/www/html/user.php');
     $userToRecord = new user();
     $userData = array(
         'username' => $_POST['username'],

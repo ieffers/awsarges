@@ -1,7 +1,5 @@
 <?php
-    define('__ROOT__', dirname(dirname(__FILE__)));
-    require_once($root.'bbdd.php');
-
+    require_once('/var/www/html/bbdd.php');
     class user extends CRUD {
         public $table = 'users';
 

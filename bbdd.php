@@ -1,6 +1,6 @@
 <?php
-    define('__ROOT__', dirname(dirname(__FILE__)));
-    require_once(__ROOT__.'conexion.php');
+
+    require_once('/var/www/html/conexion.php');
     class CRUD extends DB {
         public $db;
 

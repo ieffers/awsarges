@@ -1,4 +1,4 @@
-<?php require_once('user.php');
+<?php require_once('/user.php');
 $userRecord = new $user();
 ?>
 <!DOCTYPE html>
