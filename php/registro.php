@@ -4,7 +4,8 @@
     $userData = array(
         'username' => $_POST['username'],
         'firstname'=> $_POST['firstname'],
-        'password' => md5($_POST['password'])
+        'password' => md5($_POST['password']),
+        'email'    => $_POST['email']
     );
    $userToRecord -> recordUser($userData);
 
