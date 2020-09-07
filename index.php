@@ -1,5 +1,5 @@
 <?php
-    require_once ('assets\header.php');
+    require_once ('/var/www/html/assets/header.php');
 ?>
 <body>
     <h1>Bienvenido a mi pagina en AWS!</h1>
@@ -15,5 +15,5 @@
         <input class= "submit" type="submit" value="Enviar">
     </form>
 <?php
-    require_once ('assets\footer.php');
+    require_once ('/var/www/html/assets/footer.php');
 ?>
