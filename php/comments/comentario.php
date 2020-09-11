@@ -1,5 +1,5 @@
 <?php
-    require_once('/var/www/html/php/lib/bbdd.php');
+    require_once('/var/wwww/php/lib/bbdd.php');
 
     class Comments extends CRUD {
         private $table = 'comments';
@@ -24,5 +24,6 @@
         return $read;
     }
 }
+
 ?>
 

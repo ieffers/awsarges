@@ -1,5 +1,5 @@
 <?php
-    require_once ('/var/www/html/assets/header.php');
+    require_once ('/var/wwww/assets/header.php');
 ?>
 <form action='/php/users/registro.php' method='POST' class="formulario">
         <h4>Formulario de Registro</h4>
@@ -11,5 +11,5 @@
         <input class= "submit" type="submit" value="Enviar">
     </form>
 <?php
-    require_once ('assets\footer.php');
+    require_once ('/var/wwww/assets/footer.php');
 ?>

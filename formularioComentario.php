@@ -1,3 +1,6 @@
+<?php 
+    require_once('mostrarComentario.php');
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
