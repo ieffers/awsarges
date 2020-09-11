@@ -6,7 +6,7 @@
     <ul class= "menu">
         <li><a href="#"> Inicio </a></li>
         <li><a href="formularioRegistro.php"> Registro </a></li>
-        <li><a href="formularioComentario.html"> Comentarios </a></li>
+        <li><a href="formularioComentario.php"> Comentarios </a></li>
     </ul>
     <form action='/php/registro.php' method='POST' class="formulario">
         <h4>Formulario de Login</h4>

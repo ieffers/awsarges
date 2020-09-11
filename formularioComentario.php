@@ -1,3 +1,6 @@
+<?php 
+    require_once('mostrarComentario.php');
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,10 +11,16 @@
     <title>Comentarios</title>
 </head>
 <body>
-    <form action="/php/comentario.php" method="POST" class="formulario">
+    <form action="/php/comments/registro.php" method="POST" class="formulario">
         <input class="datosformulario" type="type" name="username" id="usnermane" placeholder= "Introduzca su nombre">
         <textarea name="comment" id="comment" rows="4" cols="8"  maxlength=140 placeholder="Introduzca su comentario, maximo 140" ></textarea>
         <input class="submit" type="submit" value="Enviar">
     </form>
+    <div class="formulario">
+        <h2> Ultimo comentario <h2>
+        <input class="datosformulario" type="text" value="<?php echo  $read['username'] ?>">
+        <input class="datosformulario" type="text" value="<?php echo  $read['date'] ?>">
+        <input class="datosformulario" type="text" value="<?php echo  $read['comment'] ?>">
+    <div>
 </body>
 </html>

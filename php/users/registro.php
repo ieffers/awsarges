@@ -1,5 +1,5 @@
 <?php
-    require_once ('/var/www/html/php/user.php');
+require_once ('user.php');
     $userToRecord = new user();
     $userData = array(
         'username' => $_POST['username'],
@@ -8,5 +8,4 @@
         'password' => md5($_POST['password']),
     );
    $userToRecord -> recordUser($userData);
-
 ?>

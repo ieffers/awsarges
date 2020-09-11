@@ -2,8 +2,8 @@
     class DB extends PDO {
             private $hostname = 'localhost';
             private $database = 'awsarges';
-            private $username = 'groot';
-            private $password = '20202020';
+            private $username = 'root';
+            private $password = '';
             private $pdo;
             private $bConnected = false;
             private $parameters;
@@ -30,4 +30,5 @@
                 $this -> pdo = null;
             }
     }
+  
     ?>
