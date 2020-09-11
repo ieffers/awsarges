@@ -22,5 +22,14 @@
                 echo $e->getMessage();
             }   
         }
+        public function read(){
+            try {
+                $queryResult = $this->db->prepare($query);
+                $queryResult->execute();
+                return $queryResult->fetch(PDO::FETCH_ASSOC);
+            } catch (PDOException $e){
+                echo $e->getMessage();
+            }
+        }
     }
 ?>
