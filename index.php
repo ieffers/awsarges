@@ -1,12 +1,12 @@
 <?php
-    require_once ('/var/www/assets/header.php');
+    require_once ('/var/www/html/assets/header.php');
 ?>
 <body>
     <h1>Bienvenido a mi pagina en AWS!</h1>
     <ul class= "menu">
         <li><a href="#"> Inicio </a></li>
         <li><a href="formularioRegistro.php"> Registro </a></li>
-        <li><a href="formularioComentario.php"> Comentarios </a></li>
+        <li><a href="formularioComentario.html"> Comentarios </a></li>
     </ul>
     <form action='/php/registro.php' method='POST' class="formulario">
         <h4>Formulario de Login</h4>
