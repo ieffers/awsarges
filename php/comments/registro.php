@@ -1,6 +1,6 @@
 <?php
-    require_once('comentario.php');
-    $commentToRecord = new Comment();
+    require_once('/var/www/html/php/comments/comment.php');
+    $commentToRecord = new comment();
     $commentData = array (
         'username' => $_POST['username'],
         'date' =>  date("d-M-Y H:i"),
