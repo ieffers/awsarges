@@ -1,7 +1,7 @@
 <?php
-    require_once('bbdd.php');
+    require_once('/var/www/html/php/lib/bbdd.php');
 
-    class user extends CRUD {
+    class User extends CRUD {
         public $table = 'users';
 
         public function __construct(){
@@ -19,4 +19,5 @@
         }
         
     }
+    $userToRecord = new User();
 ?>
