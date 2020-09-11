@@ -19,7 +19,7 @@
         }
         public function readLastComment(){
             $db = new CRUD();
-            $query = "SELECT * FROM comments WHERE date IN (SELECT max(date) FROM comments";
+            $query = "SELECT * FROM comments WHERE date IN (SELECT max(date) FROM comments)";
             $read = $db->read($query);
             return $read;
         }

@@ -7,5 +7,6 @@
         'comment' => $_POST['comment']
     );
     $commentToRecord -> recordComment($commentData);
-
+	 $result = $commentToRecord -> readLastComment();
+    echo $result['username'];
 ?>

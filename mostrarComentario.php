@@ -1,5 +1,5 @@
 <?php
-    require_once('var/www/html/php/comments/comentario.php');
+    require_once('var/www/html/php/comments/comment.php');
     $comment = new comment();
     $read = $comment -> readLastComment();
     echo $read['username'];

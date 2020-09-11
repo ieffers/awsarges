@@ -22,7 +22,7 @@
                 echo $e->getMessage();
             }   
         }
-        public function read(){
+        public function read($query){
             try {
                 $queryResult = $this->db->prepare($query);
                 $queryResult->execute();
