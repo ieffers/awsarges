@@ -10,7 +10,7 @@
 
         public function recordComment($commentData){
             $db = new CRUD();
-            $insert = $db->insert('comments',$userData);
+            $insert = $db->insert('comments',$commentData);
             if ($insert == true) {
                 echo  'Registro exitoso';
             }else{
