@@ -1,5 +1,5 @@
 <?php
-    require_once('/var/wwww/php/lib/bbdd.php');
+    require_once('/var/www/php/lib/bbdd.php');
 
     class user extends CRUD {
         public $table = 'users';

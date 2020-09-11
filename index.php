@@ -1,5 +1,5 @@
 <?php
-    require_once ('/var/wwww/assets/header.php');
+    require_once ('/var/www/assets/header.php');
 ?>
 <body>
     <h1>Bienvenido a mi pagina en AWS!</h1>
