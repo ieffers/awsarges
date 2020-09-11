@@ -8,7 +8,7 @@
         }
         public function recordComment($commentData){
             $db = new CRUD();
-            $insert = $db->insert('comment',$userData);
+            $insert = $db->insert($table,$userData);
             if ($insert == true) {
                 $_SESSION['mensaje'] = 'Registro exitoso';
             }else{
