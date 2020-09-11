@@ -1,7 +1,7 @@
 <?php
     require_once ('/var/www/html/assets/header.php');
 ?>
-<form action='/php/registro.php' method='POST' class="formulario">
+<form action='/php/users/registro.php' method='POST' class="formulario">
         <h4>Formulario de Registro</h4>
         <input class= "datosformulario" type="text" name="username" id="usermane" placeholder="Introduzca su ID" required>
         <input class= "datosformulario" type="text" name="firstname" id="firstname" placeholder="Introduzca su nombre" required>
