@@ -1,5 +1,5 @@
 <?php
-    require_once('/var/www/html/php/user.php');
+    require_once('/var/www/html/php/users/user.php');
     $commentToRecord = new user();
     $commentData = array (
     'username' => $_POST['username'],
