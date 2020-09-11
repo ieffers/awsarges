@@ -1,5 +1,5 @@
 <?php 
-    require_once ('var/www/html/php/comments/mostrarComentario.php');
+    require_once ('/var/www/html/php/comments/mostrarComentario.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
