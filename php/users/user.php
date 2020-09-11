@@ -2,7 +2,7 @@
     require_once('/var/www/html/php/lib/bbdd.php');
 
     class User extends CRUD {
-        private $table = 'users';
+        public $table = 'users';
 
         public function __construct(){
            parent::__construct();
