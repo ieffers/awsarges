@@ -1,5 +1,5 @@
 <?php
-    require_once('/var/www/html/php/bbdd.php');
+    require_once('bbdd.php');
 
     class user extends CRUD {
         public $table = 'users';
@@ -17,14 +17,6 @@
                 echo "Error";
             }
         }
-        public function recordComment($userComment){
-            $db = new CRUD();
-            $insert = $db->insert('comments',$userComment);
-            if ($insert == true) {
-                $_SESSION['mensaje'] = 'Registro exitoso';
-            }else{
-                echo "Error";
-            }
-        }
+        
     }
 ?>
