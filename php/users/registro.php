@@ -1,6 +1,6 @@
 <?php
-    require_once ('user.php');
-    $userToRecord = new User();
+    require_once ('/var/www/html/php/users/user.php');
+    $userToRecord = new user();
     $userData = array(
         'username' => $_POST['username'],
         'firstname'=> $_POST['firstname'],

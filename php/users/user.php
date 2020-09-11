@@ -1,7 +1,7 @@
 <?php
     require_once('/var/www/html/php/lib/bbdd.php');
 
-    class User extends CRUD {
+    class user extends CRUD {
         public $table = 'users';
 
         public function __construct(){
@@ -10,14 +10,12 @@
         
         public function recordUser($userData){
             $db = new CRUD();
-            $insert = $db->insert($table,$userData);
+            $insert = $db->insert('users',$userData);
             if ($insert == true) {
                 echo 'Registro exitoso';
             }else{
                 echo "Error";
             }
-            die();
         }
-    
     }
 ?>
