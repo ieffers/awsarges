@@ -11,7 +11,7 @@
     <title>Comentarios</title>
 </head>
 <body>
-    <form action="/php/comments/comentario.php" method="POST" class="formulario">
+    <form action="/php/comments/registro.php" method="POST" class="formulario">
         <input class="datosformulario" type="type" name="username" id="usnermane" placeholder= "Introduzca su nombre">
         <textarea name="comment" id="comment" rows="4" cols="8"  maxlength=140 placeholder="Introduzca su comentario, maximo 140" ></textarea>
         <input class="submit" type="submit" value="Enviar">

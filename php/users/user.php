@@ -10,9 +10,9 @@
         
         public function recordUser($userData){
             $db = new CRUD();
-            $insert = $db->insert('users',$userData);
+            $insert = $db->insert($table,$userData);
             if ($insert == true) {
-                $_SESSION['mensaje'] = 'Registro exitoso';
+                echo 'Registro exitoso';
             }else{
                 echo "Error";
             }
