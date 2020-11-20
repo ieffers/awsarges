@@ -14,15 +14,9 @@
             <li><a href="formularioComentario.php"> Dejar Comentario </a></li>
         </ul>
         <hr>
-        <form action='/php/registro.php' method='POST' class="formulario">
-            <h4>Formulario de Login</h4>
-            <input class="datosformulario" type="text" name="username" id="usermane" placeholder="Introduzca su ID"
-                required>
-            <input class="datosformulario" type="password" name="password" id="password"
-                placeholder="Introduzca su contraseña" required>
-            <a href="#">¿Ha olvidado su contraseña?</a>
-            <input class="submit" type="submit" value="Enviar">
-        </form>
+        <main>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur repudiandae asperiores dolore officiis necessitatibus iure quia hic quod amet, natus saepe nesciunt incidunt molestiae blanditiis harum quaerat suscipit minus facere.<p>
+        </main>
         <aside>
         <h3>Redes Sociales</h3>
         <ul>
