@@ -3,19 +3,24 @@
 ?>
 
 <body>
-    <div class="container">
-        <h1>Bienvenido a mi pagina en AWS!</h1>
-        <ul class="menu">
+    <header>
+    <ul class="menu">
             <li><a href="#"> Inicio </a></li>
             <li><a href="formularioRegistro.php"> Registro </a></li>
             <li><a href="#"> Quienes Somos </a></li>
             <li><a href="#"> Contacto </a></li>
             <li><a href="#"> Blog </a></li>
             <li><a href="formularioComentario.php"> Dejar Comentario </a></li>
-        </ul>
+    </ul>
+    </header>
+    <div class="container">
+    
         <hr>
         <main>
             <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur repudiandae asperiores dolore officiis necessitatibus iure quia hic quod amet, natus saepe nesciunt incidunt molestiae blanditiis harum quaerat suscipit minus facere.<p>
+            <div>
+                <img src="assets\img\main.png" alt="main">
+            </div>
         </main>
         <aside>
         <h3>Redes Sociales</h3>
