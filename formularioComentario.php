@@ -1,5 +1,5 @@
 <?php 
-    // require_once ('/var/www/html/php/comments/mostrarComentario.php');
+    require_once ('/var/www/html/php/comments/mostrarComentario.php');
     require_once ('/var/www/html/assets/header.php');
 ?>
     <div class="container">
