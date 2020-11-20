@@ -8,7 +8,7 @@
         <textarea name="comment" id="comment" rows="4" cols="8"  maxlength=140 placeholder="Introduzca su comentario, maximo 140" ></textarea>
         <input class="submit" type="submit" value="Enviar">
     </form>
-    <div class="formulario">
+    <div class="formulario comentario">
         <h2> Ultimo comentario <h2>
         <input class="datosformulario" type="text" value="<?php echo  $read['username'] ?>">
         <input class="datosformulario" type="text" value="<?php echo  $read['date'] ?>">

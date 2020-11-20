@@ -55,6 +55,9 @@ form{
     padding: 20px;
     border-radius: 3px;
 }
+.comentario {
+    margin-left: 8em;
+}
 .formulario h4 {
     text-align: center;
 
