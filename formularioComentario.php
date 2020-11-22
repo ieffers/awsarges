@@ -2,6 +2,7 @@
     require_once ('/var/www/html/php/comments/mostrarComentario.php');
     require_once ('/var/www/html/assets/header.php');
     require_once ('/var/www/html/assets/menu.php');
+    require_once ('/var/www/html/php/comments/prueba.php');
 ?>
     <div class="container">
     <form action="/php/comments/registro.php" method="POST" class="formulario fixed">
@@ -13,7 +14,7 @@
     <form  class="formulario">
         <h2> Ultimos 5 Comentarios </h2>
         <?php
-        require_once ('/var/www/html/php/comments/mostrar5Comentario.php');
+
         foreach ($readArray as $key => $ArrayData){
              echo "<input class='datosformulario' type='text' value='$ArrayData' readonly >";
             }
