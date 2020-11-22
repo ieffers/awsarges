@@ -23,5 +23,11 @@
             $read = $db->read($query);
             return $read;
         }
+        public function readLastFiveComment(){
+            $db = new CRUD();
+            $query = "SELECT COMMENT FROM comments order by DATE DESC LIMIT 5;";
+            $readArray = $db->readArray($query);
+            return $readArray;
+        }
 
     }

@@ -31,5 +31,15 @@
                 echo $e->getMessage();
             }
         }
+        public function readArray($query){
+            try {
+                $queryResult = $this->db->prepare($query);
+                $queryResult->execute();
+                $readArray = $queryResult->fetchAll(PDO::FETCH_COLUMN, 0);
+                return $readArray;
+            } catch (PDOException $e){
+                echo $e->getMessage();
+            }
+        }
     }
 ?>

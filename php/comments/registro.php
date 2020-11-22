@@ -7,5 +7,5 @@
         'comment' => $_POST['comment']
     );
     $commentToRecord -> recordComment($commentData);
-    header('Location:../../formularioComentario.php');	
+    header('Location: ../../formularioComentario.php');	
 ?>

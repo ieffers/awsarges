@@ -1,25 +1,16 @@
 <?php
     require_once ('/var/www/html/assets/header.php');
+    require_once ('/var/www/html/assets/menu.php');
 ?>
 
-<body>
-    <header>
-    <ul class="menu">
-            <li><a href="#"> Inicio </a></li>
-            <li><a href="formularioRegistro.php"> Registro </a></li>
-            <li><a href="#"> Quienes Somos </a></li>
-            <li><a href="#"> Contacto </a></li>
-            <li><a href="#"> Blog </a></li>
-            <li><a href="formularioComentario.php"> Dejar Comentario </a></li>
-    </ul>
-    </header>
+
     <div class="container">
     
         <hr>
         <main>
             <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur repudiandae asperiores dolore officiis necessitatibus iure quia hic quod amet, natus saepe nesciunt incidunt molestiae blanditiis harum quaerat suscipit minus facere.<p>
             <div>
-                <img src="assets\img\main.png" alt="main">
+                <img src="assets\img\main.jpg" alt="main">
             </div>
         </main>
         <aside>
