@@ -1,6 +1,7 @@
 <?php 
     require_once ('/var/www/html/php/comments/mostrarComentario.php');
     require_once ('/var/www/html/assets/header.php');
+    require_once ('/var/www/html/assets/menu.php');
 ?>
     <div class="container">
     <form action="/php/comments/registro.php" method="POST" class="formulario fixed">
@@ -11,11 +12,12 @@
     </form>
     <form  class="formulario">
         <h2> Ultimos 5 Comentarios </h2>
-        <input class="datosformulario" type="text" value="<?php echo  $read['comment'] ?>" >
-        <input class="datosformulario" type="text" value="<?php echo  $read['comment'] ?>" >
-        <input class="datosformulario" type="text" value="<?php echo  $read['comment'] ?>" >
-        <input class="datosformulario" type="text" value="<?php echo  $read['comment'] ?>" >
-        <input class="datosformulario" type="text" value="<?php echo  $read['comment'] ?>" >
+        <?php
+        require_once ('/var/www/html/php/comments/mostrar5Comentario.php');
+        foreach ($readArray as $key => $ArrayData){
+             echo "<input class='datosformulario' type='text' value='$ArrayData' readonly >";
+            }
+        ?>
 
     </form>
     <div class="formulario comentario">

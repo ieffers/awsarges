@@ -1,6 +1,8 @@
 <?php
     require_once ('/var/www/html/assets/header.php');
+    require_once ('/var/www/html/assets/menu.php');
 ?>
+
 
 <div class="container">
 <form action='/php/users/registro.php' method='POST' class="formulario">
