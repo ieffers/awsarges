@@ -1,8 +1,8 @@
-<?php 
-    require_once ('/var/www/html/php/comments/mostrarComentario.php');
-    require_once ('/var/www/html/php/comments/lastfive.php');
-    require_once ('/var/www/html/assets/header.php');
-    require_once ('/var/www/html/assets/menu.php');
+<?php
+    require_once('/var/www/html/php/comments/mostrarComentario.php');
+    require_once('/var/www/html/php/comments/lastfive.php');
+    require_once('/var/www/html/assets/header.php');
+    require_once('/var/www/html/assets/menu.php');
     
 ?>
 
@@ -18,9 +18,9 @@
     <h3> Ultimos 5 Comentarios </h3>
     <?php
 
-        foreach ($readArray as $key => $ArrayData){
-             echo "<input class='datosformulario' type='text' value='$ArrayData' >";
-            }
+        foreach ($readArray as $key => $ArrayData) {
+            echo "<input class='datosformulario' type='text' value='$ArrayData' >";
+        }
         ?>
 
     </form>

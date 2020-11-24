@@ -1,9 +1,9 @@
 <?php
-    require_once ('/var/www/html/assets/header.php');
+    require_once('/var/www/html/assets/header.php');
 ?>
 
 <?php
-require_once ('/var/www/html/assets/menu.php');
+require_once('/var/www/html/assets/menu.php');
 ?>
 <div class="container container-lg container-sm">
     <div class="row">
@@ -37,5 +37,5 @@ require_once ('/var/www/html/assets/menu.php');
 </div>
 
 <?php
-    require_once ('/var/www/html/assets/footer.php');
+    require_once('/var/www/html/assets/footer.php');
 ?>

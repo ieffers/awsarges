@@ -8,5 +8,3 @@
         'password' => md5($_POST['password']),
     );
    $userToRecord -> recordUser($userData);
-
-?>

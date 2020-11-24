@@ -1,6 +1,6 @@
 <?php
-    require_once ('/var/www/html/assets/header.php');
-    require_once ('/var/www/html/assets/menu.php');
+    require_once('/var/www/html/assets/header.php');
+    require_once('/var/www/html/assets/menu.php');
 ?>
 
 
@@ -16,5 +16,5 @@
     </form>
 </div>
 <?php
-    require_once ('assets\footer.php');
+    require_once('assets\footer.php');
 ?>
