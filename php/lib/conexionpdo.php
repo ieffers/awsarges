@@ -1,14 +1,14 @@
   <?php
-    class DB extends PDO {
-        private $hostname = 'localhost';
-        private $database = 'awsarges';
-        private $username = 'groot';
-        private $password = '20202020';
-        private $pdo;
-        private $bConnected = false;
-        private $parameters;
-        private $dsn;
-        private $charset;
+ class DB extends PDO {
+    private $hostname = 'host.docker.internal';
+    private $database = 'awsarges';
+    private $username = 'root';
+    private $password = '2020';
+    private $pdo;
+    private $bConnected = false;
+    private $parameters;
+    private $dsn;
+    private $charset;
 
     public function __construct(){
         $this->dsn = 'mysql:dbname='.$this->database.';host='.$this->hostname;
