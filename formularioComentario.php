@@ -6,11 +6,11 @@
     
 ?>
 
-
+<div class="container">
     <form action="/php/comments/registro.php" method="POST" class="formulario fixed">
         <h3> Crear comentario </h3>
         <input class="datosformulario" type="text" name="username" id="usnermane" placeholder="Introduzca su nombre">
-        <textarea class="md-textarea" name="comment" id="comment" rows="4" cols="8" maxlength=140
+        <textarea class="md-textarea" name="comment" id="comment" rows="5" cols="20" maxlength=140
             placeholder="Introduzca su comentario, maximo 140"></textarea>
         <input class="submit" type="submit" value="Enviar">
     </form>
@@ -29,4 +29,5 @@
             <input class="datosformulario" type="text" value="<?php echo  $read['username'] ?>">
             <input class="datosformulario" type="text" value="<?php echo  $read['date'] ?>">
             <input class="datosformulario" type="text" value="<?php echo  $read['comment'] ?>">
+    </div>
     </div>
