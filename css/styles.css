@@ -15,8 +15,6 @@ body {
     margin-top: -0.5em;
     background-color: whitesmoke;
     min-height: 100%;
-    max-width: 1000px;
-    width: 70%;
     margin-right: auto;
     margin-left: auto;
 }
@@ -29,10 +27,10 @@ body {
     margin-top: 20px;
     margin-left: 3em;
     min-height: 100%;
-    width: 70%;
+    width: 100%;
 }
 .container main img{
-     width: 95%;
+     width: 100%;
 }
 form{
     display: inline-block;
@@ -100,3 +98,36 @@ aside div ul li {
     margin-top: 1em;
     margin-left: 3em;
 }
+
+@media (max-width: 1000px) {
+        aside {
+            width: 80%;
+        }
+        aside {
+            width: 80%;
+        }
+        aside h4 {
+            display: none;
+        }
+        aside li{
+            display: inline;
+        }
+        .asider div {
+            display: inline;
+        }
+        .asider img {
+            width: 2em;
+        }
+    }
+
+    @media (max-width: 425px) {
+        body {
+            background-color: whitesmoke;
+            margin-left: -3em;
+            width: 70%;
+        }
+        main div img{
+            width: 5em;
+        }
+        
+    }

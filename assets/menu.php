@@ -1,6 +1,7 @@
 <body>
+    <div class="container-fluid">
     <header>
-        <nav class="navbar navbar-expand-sm navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-expand-md navbar-expand-sm navbar-light bg-light">
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <div class="container">
                     <ul class="navbar-nav mr-auto">
