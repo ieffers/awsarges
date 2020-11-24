@@ -38,7 +38,7 @@ form{
 }
 .formulario {
     height: 20em;
-    background: blanchedalmond;
+    background: #DAF5FF;
     border: 1px solid black;
     margin: 20px;
     margin-left: 5em;
@@ -139,7 +139,7 @@ aside div ul li {
         }
         .datosformulario {
             width: 100%;
-            height: 1em;
+            height: 0.5em;
             font-size: 1rem;
             padding: 1em;
             border: 0.5px solid black;
@@ -171,8 +171,34 @@ aside div ul li {
             margin-left: -2em;
         }
         .formulario{
-           
+            width: 10em;
+            height: 11.5em;
+            font-size: 2em;
             margin-left: 2em ;
+        }
+        .datosformulario {
+            width: 100%;
+            height: 0.5em;
+            font-size: 1rem;
+            padding: 1em;
+            border: 0.5px solid black;
+            text-align: center;
+        }
+        .datosformulario textarea {
+            width: 100%;
+            height: 1em;
+            font-size: 1rem;
+            padding: 1em;
+            border: 0.5px solid black;
+        }
+         h3 {
+             text-align: center;
+            font-size: 1rem;
+ 
+        }
+        .comentario{
+            height: 6em;
+    
         }
         header nav .container {
 
