@@ -104,6 +104,7 @@ aside div ul li {
             width: 80%;
         }
         aside {
+            margin-top: 0;
             width: 80%;
         }
         aside h4 {
@@ -138,11 +139,11 @@ aside div ul li {
             margin-left: auto;
             margin-right: auto;
             width: 70%;
+            margin-left: -2em;
         }
         header nav .container {
 
-            margin-left: -5em;
-            font-size: 0.8rem;
+            font-size: 0.6rem;
         }
         main div img{
             width: 5em;
