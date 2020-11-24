@@ -119,12 +119,30 @@ aside div ul li {
             width: 2em;
         }
     }
+    @media (max-width: 800px) {
+        body {
+            background-color: whitesmoke;
+            margin-left: auto;
+            margin-right: auto;
+            width: 70%;
+        }
+        main div img{
+            width: 5em;
+        }
+        
+    }
 
     @media (max-width: 425px) {
         body {
             background-color: whitesmoke;
-            margin-left: -3em;
+            margin-left: auto;
+            margin-right: auto;
             width: 70%;
+        }
+        header nav .container {
+
+            margin-left: -5em;
+            font-size: 0.8rem;
         }
         main div img{
             width: 5em;
